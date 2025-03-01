@@ -12,8 +12,15 @@ To get started:
 
 ```bash
 npm init @open-wc
-# requires node 10 & npm 6 or higher
+# requires node 10 & npm 6 or high![Imagen CELLS](https://github.com/user-attachments/assets/da501c4b-a690-47f6-9b99-5ba40b2150b1)
+er
 ```
+## EVIDENCIA 
+![Imagen CELLS](https://github.com/user-attachments/assets/42b06e2d-963c-4dce-bbca-061b644c280e)
+![Imagen CELLS4](https://github.com/user-attachments/assets/8f2b314f-e009-4355-bc31-a342aaa04d12)
+![Imagen CELLS2](https://github.com/user-attachments/assets/16334541-3b84-4957-8fed-2e129b615378)
+![Imagen CELLS3](https://github.com/user-attachments/assets/ea471d98-9e7a-41ec-8fa4-1213bd38b259)
+
 
 ## Scripts
 
