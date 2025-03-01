@@ -1,7 +1,7 @@
 import { LitElement } from 'lit';
 
 export class CharactersComponentDp extends LitElement {
-  // eslint-disable-next-line class-methods-use-this
+  
   async getCharacters() {
     try {
       const response = await fetch('https://rickandmortyapi.com/api/character');
