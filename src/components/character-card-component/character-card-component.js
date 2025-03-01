@@ -36,7 +36,6 @@ export class CharacterCardComponent extends LitElement {
       'card--unknown': this.status.toLowerCase() === 'unknown'
     };
 
-    // Get dimension from location
     const dimension = this.location && this.location.name ? this.location.name : 'Unknown';
 
     return html`
