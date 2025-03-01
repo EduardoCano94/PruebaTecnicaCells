@@ -20,18 +20,18 @@ export class CharactersPage extends LitElement {
 
   connectedCallback() {
     super.connectedCallback();
-    // Listen for the characters-loaded event
+    
     this.addEventListener('characters-loaded', this.handleCharactersLoaded);
   }
 
   disconnectedCallback() {
     super.disconnectedCallback();
-    // Clean up event listener when component is removed
+    
     this.removeEventListener('characters-loaded', this.handleCharactersLoaded);
   }
 
   handleCharactersLoaded(event) {
-    // Update data when event is received
+    
     this._data = event.detail;
   }
 

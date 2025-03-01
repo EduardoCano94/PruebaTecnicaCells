@@ -12,10 +12,10 @@ async fetchAndEmitCharacters() {
     try {
         const characters = await dp.getCharacters();
         
-        // Process the data
+        
         const groupBySpecie = Object.groupBy(characters, character => character.species);
         
-        // Emit custom event with the response data
+        
         this.dispatchEvent(new CustomEvent('characters-loaded', {
             detail: groupBySpecie,
             bubbles: true,
@@ -25,7 +25,7 @@ async fetchAndEmitCharacters() {
         return groupBySpecie;
     } catch (error) {
         console.error('Error fetching characters:', error);
-        // Emit error event
+      
         this.dispatchEvent(new CustomEvent('characters-error', {
             detail: error,
             bubbles: true, 
